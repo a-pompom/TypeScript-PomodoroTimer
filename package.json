@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \\\"Error: no tests specified\\\" && exit 1"
   },
   "author": "",
   "license": "ISC",
@@ -15,7 +15,7 @@
     "typescript": "^4.7.4"
   },
   "jest": {
-    "moduleDirectories": ["node_modules", "."],
+    "moduleDirectories": ["node_modules", "typescript_pomodoro"],
     "moduleFileExtensions": [
       "ts",
       "js"
